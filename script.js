@@ -10,7 +10,15 @@ function Book(title, author, pages, year, publisher) {
 
 function addBookToLibrary() {
     myLibrary.push();
+    return myLibrary;
 }
 
+function displayBooks() {
+    for (let i = 0; i < myLibrary.length; i++) {
+        return myLibrary[i];
+    }
+}
+
+displayBooks();
 addBookToLibrary();
 
